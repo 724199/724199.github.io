@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-color: #f4f7d9;
+	color: #3e423a;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+header{
+	height: 4em;
+
+	padding: 0 1em;
+	background-color: #417378;
+	color: #f4f7d9;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.logo{
+	display: none;
+}
+
+nav a{
+	color: #f4f7d9;
+	padding: .3em;
+}
+
+nav a:hover{
+	color: #417378;
+	background-color: #f4f7d9;
+}
+
+section, footer{
+	padding: 1.5em 1em;
+}
+
+#sidebar{
+	background-color: #a4cfbe;
+	grid-area: a;
+}
+
+#sidebar h1{margin-bottom: 1em;}
+
+.caption{
+	text-align: center;
+	color: #6c6e58;
+	font-size: .7rem;
+	margin-top: 1em;
+}
+
+#content{
+	grid-area: b;
+}
+
+#content h2{font-size: 7vw;}
+#content h3{font-size: 6vw;}
+#content h4{font-size: 5vw;}
+
+.img{
+	background-color: #6c6e58;
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+
+.img .caption{color:#f4f7d9;}
+
+#footer{
+	background-color: #3e423a;
+	color: #f4f7d9;
+	text-align: center;
+	grid-area: c;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px){
+
+header{justify-content: space-between;}
+
+.logo{display: block;}
+
+.wrap{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: 
+	"a b"
+	"c c";
+}
+
+#content h2{font-size: 5vw;}
+#content h3{font-size: 4vw;}
+#content h4{font-size: 3vw;}
+
+}
+
+@media screen and (min-width: 1024px){
+
+.wrap{
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-areas: 
+	"a b c";
+}
+
+}
