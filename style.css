@@ -56,9 +56,9 @@ section, footer{
 
 .caption{
 	text-align: center;
-	color: #6c6e58;
 	font-size: .7rem;
 	margin-top: 1em;
+	padding: 0 .5em;
 }
 
 #content{
