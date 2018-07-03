@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 *{
-
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
@@ -34,7 +33,7 @@ nav a{padding: .2em;}
 
 .pre{width: 100%; margin: 0 auto;}
 
-.wrap svg{padding: 0 3em;}
+/*.wrap svg{padding: 0 3em;}*/
 
 .st0{
 	fill:none;
