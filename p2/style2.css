@@ -54,11 +54,17 @@ nav a{padding: .2em;}
 
 .st1{fill:#FF0000;}
 
+.wrap{display: none;}
+
 .text p{padding: 0 3em; margin: 0; text-align: justify;}
+
+/* SOCIAL */
 
 .insta{padding: 0 3em;}
 
 .twitter{padding: 0 3em;}
+
+/* CONTACT */
 
 .container {
   max-width: 400px;
@@ -176,9 +182,31 @@ fieldset {
   color: #fff;
 }
 
+/* WORK */
+
+.card{
+  margin: 2em;
+}
+
+.card .ima img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption{
+  padding: 1.5em;
+}
+
+.caption p{
+  text-align: center;
+}
+
 @media (min-width: 765px){
 
 h2{font-size: 3vw;}
+
+.wrap{display: block;}
 
 .pre{
 	width: 90%;
